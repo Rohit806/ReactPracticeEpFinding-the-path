@@ -1,0 +1,26 @@
+{
+  "name": "reactpractice",
+  "version": "1.0.0",
+  "description": "This is react",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohit806/ReactPractice.git"
+  },
+  "author": "Rohit Jadhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rohit806/ReactPractice/issues"
+  },
+  "homepage": "https://github.com/Rohit806/ReactPractice#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
