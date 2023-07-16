@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "This is react",
   "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.9.3",
     "process": "^0.11.10"
   },
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
