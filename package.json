@@ -1,0 +1,21 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "React Practice",
+ 
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Rohit",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
