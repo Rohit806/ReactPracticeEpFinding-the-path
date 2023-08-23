@@ -4,6 +4,8 @@
   "description": "React Practice",
 
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "Rohit",
@@ -13,6 +15,10 @@
     "parcel": "^2.9.3",
     "process": "^0.11.10"
   },
+
+
+
+  
   "dependencies": {
     "babel": "^6.23.0",
     "react": "^18.2.0",
