@@ -558,12 +558,12 @@ const RestaurantCard= ({name,cloudinaryImageId,cuisines,lastMileTravelString})=>
 
 }
 
-
+//no key(not acceptable)  <<<< index key(last option)  <<<<<< unique key (best option)  
 const Body=()=> ( 
  <div className="RestaurantList"> 
 
  {restaurantList.map((Restaurant) =>{
-   return <RestaurantCard{...Restaurant.data.data}/>;
+   return <RestaurantCard{...Restaurant.data.data} key={Restaurant.data.data.id} />;// verify key if any error or remove key ,if error
  }
  )}
 </div>
@@ -574,7 +574,7 @@ const Footer =()=> <h1>Footer</h1>
 
 const AppLayout =()=> {
   return(
-    <>
+    <>  
       <Header/>
       <Body/>
       <Footer/>
