@@ -12,6 +12,7 @@
     justify-content: space-between;
     margin:10px;
     border:1px solid black;
+    background-color: #c1e61c;
 }
 
 .nav > ul {
@@ -38,4 +39,14 @@
 .RestaurantList{
     display: flex;
     flex-wrap: wrap;
+}
+
+.Shimmer{
+    
+    width:200px;
+    height: 200px;
+    background-color: grey;
+    padding : 10px;
+    margin:10px;
+
 }
