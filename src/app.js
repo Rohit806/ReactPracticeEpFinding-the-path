@@ -1,13 +1,13 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
-import Header from "./components/header"
-import Footer from "./components/footer"
-import Body from "./components/body.js"
-import About from "./components/about.js"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import Body from "./components/body"
+import About from "./components/About.js"
 import { createBrowserRouter,Outlet,RouterProvider } from "react-router-dom"
-import Error from "./components/error.js";
-import Contact from "./components/contact.js";
-import Restaurant from "./components/restaurant"
+import Error from "./components/Error.js";
+import Contact from "./components/Contact.js";
+import Restaurant from "./components/restaurantMenu"
 
 
 

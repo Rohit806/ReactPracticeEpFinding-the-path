@@ -1,7 +1,8 @@
-import RestaurantCard from "./restaurant card";
+import RestaurantCard from "./RestaurantCard";
 import { restaurantList } from "../constants";
 import { useState,useEffect} from "react";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 
 
 function filter(searchText,restaurants){
@@ -66,8 +67,18 @@ const Body=()=> {
    
       
             {filteredRestaurants.map((Restaurant) =>{
-               return <RestaurantCard{...Restaurant?.info} key={Restaurant?.info.id} />;//verify key if any error or remove key ,if error
-               }
+              
+               return (
+                <Link
+                  to={"/restaurant/" + Restaurant?.info?.id}
+                  key={Restaurant?.info?.id}//This is extra we write key here as we are mapping on link 
+                  // now instead of Restraunt card below
+                >
+                  <RestaurantCard {...Restaurant?.info} />
+                </Link>
+              );
+            
+              }
             )}
 
  </div>
